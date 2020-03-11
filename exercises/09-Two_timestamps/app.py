@@ -1,8 +1,9 @@
-#Complete the funtion to compute how many seconds passed between the two timestamp.
-def two_timestamp(hr1,min1,sec1,hr2,min2,sec2):
+hr1=1
+min1=1
+sec1=1
+hr2=2  
+min2=2
+sec2=2
+print( (3600*(hr2-hr1)) + (60*(min2-min1)) + (sec2-sec1))
 
-    print()
-
-
-#Invoke the fuction and pass two timestamps(6 intergers) as its argument.
-two_timestamp()
+#Invoke the fuction and pass two timestamps(6 intergers) as its argument
